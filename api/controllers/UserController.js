@@ -26,7 +26,7 @@ module.exports = {
   },
 
   me: function (req, res) {
-    res.ok(req.user);
+    res.ok({user: req.user, session: req.session});
   }
 };
 
