@@ -1,7 +1,7 @@
 {
-  "name": "orange-sails-auth",
+  "name": "webstudiopro-sails-auth",
   "version": "2.2.0",
-  "description": "Passport-based User Authentication system for sails.js applications.",
+  "description": "Customized Passport-based User Authentication system for sails.js applications.",
   "main": "dist/api/hooks/auth/index.js",
   "scripts": {
     "test": "mocha --reporter spec --compilers js:babel-core/register",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dponfl/orange-sails-auth.git"
+    "url": "git://github.com/dponfl/webstudiopro-sails-auth.git"
   },
   "keywords": [
     "sails",
@@ -31,7 +31,7 @@
   ],
   "author": "Travis Webb <me@traviswebb.com>",
   "license": "MIT",
-  "homepage": "https://github.com/dponfl/orange-sails-auth",
+  "homepage": "https://github.com/dponfl/webstudiopro-sails-auth.git",
   "dependencies": {
     "base64url": "^2.0.0",
     "bcryptjs": "^2.2",
