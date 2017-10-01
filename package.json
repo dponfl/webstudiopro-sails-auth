@@ -5,7 +5,8 @@
   "main": "dist/api/hooks/auth/index.js",
   "scripts": {
     "test": "mocha --reporter spec --compilers js:babel-core/register",
-    "prepublish": "gulp"
+    "prepublish": "gulp",
+    "install": "npm i"
   },
   "repository": {
     "type": "git",
