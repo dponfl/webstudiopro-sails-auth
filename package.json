@@ -4,8 +4,7 @@
   "description": "Customized Passport-based User Authentication system for sails.js applications.",
   "main": "api/hooks/auth/index.js",
   "scripts": {
-    "test": "mocha --reporter spec --compilers js:babel-core/register",
-    "prepublish": "gulp"
+    "test": "mocha --reporter spec --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
